@@ -1,5 +1,3 @@
-package something;
-
 public class Classification {
 
 	private double[] weights;
@@ -56,7 +54,7 @@ public class Classification {
 	public static void main(String[] args) {
 		
 		Classification c = new Classification(2);
-		System.out.println(c.guess(new double[] {100, 50}));
+		System.out.println(c.guess(new double[] {-1, 0}));
 		
 		for (int y = 0; y < 10000; y++) {
 			
